@@ -8,7 +8,7 @@ const gameBoard = document.getElementById('game-board');
 
 function main (currentTime) {
     if (gameOver) {
-       return alert('you lose')
+        window.location = '/'
     };
 
     window.requestAnimationFrame(main) 

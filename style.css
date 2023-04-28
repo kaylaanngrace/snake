@@ -9,7 +9,7 @@ body {
 }
 
 #game-board {
-    background-color: #CCC;
+    background-color: powderblue;
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -18,7 +18,7 @@ body {
 }
 
 .snake {
-    background-color:blueviolet;
+    background-color:rgb(173, 85, 254);
     border: .25vmin solid black;
 }
 
