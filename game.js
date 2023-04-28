@@ -8,7 +8,9 @@ const gameBoard = document.getElementById('game-board');
 
 function main (currentTime) {
     if (gameOver) {
-        window.location = '/'
+        if(confirm('You Lost. Press OK or Refresh to Restart')) {
+            window.location = '/'
+        }
     };
 
     window.requestAnimationFrame(main) 
