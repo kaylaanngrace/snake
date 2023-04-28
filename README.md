@@ -1,5 +1,7 @@
 # SNAKE
 
+[Play HERE](https://snakebymakwils.netlify.app/)
+
 ### DESCRIPTION 
 This is a very simple game built using HTML, CSS and Javascript
 
